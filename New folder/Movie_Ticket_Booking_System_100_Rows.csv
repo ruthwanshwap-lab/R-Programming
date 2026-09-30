@@ -1,0 +1,101 @@
+Booking_ID,Customer_ID,Customer_Name,Movie_ID,Movie_Name,Genre,Certificate,City,Theatre_Name,Screen_No,Screen_Type,Show_Date,Show_Time,Seat_Number,Ticket_Quantity,Ticket_Price,Total_Amount,Payment_Method,Booking_Status,Email,Phone
+BK0001,CUST0001,Aarav Singh,AVE001,Avengers: Endgame,Action,3,Ahmedabad,PVR Cinemas,Screen 1,Standard,2026-09-01,10:00 AM,A1,1,180,180,UPI,Confirmed,customer0001@email.com,9700000001
+BK0002,CUST0002,Vivaan Joshi,INC002,Inception,Sci-Fi,3,Vadodara,INOX,Screen 2,IMAX,2026-09-02,01:30 PM,B2,2,230,460,Credit Card,Confirmed,customer0002@email.com,9700000002
+BK0003,CUST0003,Aditya Shah,INT003,Interstellar,Sci-Fi,3,Surat,Cinepolis,Screen 3,3D,2026-09-03,04:30 PM,C3,3,280,840,Debit Card,Confirmed,customer0003@email.com,9700000003
+BK0004,CUST0004,Arjun Patel,THE004,The Dark Knight,Action,3,Gandhinagar,Carnival Cinemas,Screen 4,Premium,2026-09-04,07:30 PM,D4,4,330,1320,Net Banking,Cancelled,customer0004@email.com,9700000004
+BK0005,CUST0005,Rohan Gupta,JOK005,Joker,Drama,2,Mumbai,Miraj Cinemas,Screen 5,Standard,2026-09-05,10:30 PM,E5,1,380,380,Cash,Pending,customer0005@email.com,9700000005
+BK0006,CUST0006,Rahul Kumar,SPI006,Spider-Man: No Way Home,Action,3,Ahmedabad,PVR Cinemas,Screen 6,IMAX,2026-09-06,10:00 AM,F6,2,180,360,UPI,Confirmed,customer0006@email.com,9700000006
+BK0007,CUST0007,Karan Sharma,3 I007,3 Idiots,Comedy,2,Vadodara,INOX,Screen 1,3D,2026-09-07,01:30 PM,G7,3,230,690,Credit Card,Confirmed,customer0007@email.com,9700000007
+BK0008,CUST0008,Akash Verma,DAN008,Dangal,Drama,2,Surat,Cinepolis,Screen 2,Premium,2026-09-08,04:30 PM,H8,4,280,1120,Debit Card,Confirmed,customer0008@email.com,9700000008
+BK0009,CUST0009,Yash Mehta,PAT009,Pathaan,Action,3,Gandhinagar,Carnival Cinemas,Screen 3,Standard,2026-09-09,07:30 PM,A9,1,330,330,Net Banking,Cancelled,customer0009@email.com,9700000009
+BK0010,CUST0010,Mohit Mishra,RRR010,RRR,Action,3,Mumbai,Miraj Cinemas,Screen 4,IMAX,2026-09-10,10:30 PM,B10,2,380,760,Cash,Pending,customer0010@email.com,9700000010
+BK0011,CUST0011,Ananya Singh,KGF011,KGF Chapter 2,Action,3,Ahmedabad,PVR Cinemas,Screen 5,3D,2026-09-11,10:00 AM,C11,3,180,540,UPI,Confirmed,customer0011@email.com,9700000011
+BK0012,CUST0012,Diya Joshi,DRI012,Drishyam 2,Thriller,2,Vadodara,INOX,Screen 6,Premium,2026-09-12,01:30 PM,D12,4,230,920,Credit Card,Confirmed,customer0012@email.com,9700000012
+BK0013,CUST0013,Ishita Shah,BHO013,Bhool Bhulaiyaa 2,Comedy,2,Surat,Cinepolis,Screen 1,Standard,2026-09-13,04:30 PM,E1,1,280,280,Debit Card,Confirmed,customer0013@email.com,9700000013
+BK0014,CUST0014,Priya Patel,STR014,Stree 2,Comedy,2,Gandhinagar,Carnival Cinemas,Screen 2,IMAX,2026-09-14,07:30 PM,F2,2,330,660,Net Banking,Cancelled,customer0014@email.com,9700000014
+BK0015,CUST0015,Sneha Gupta,JAW015,Jawan,Action,3,Mumbai,Miraj Cinemas,Screen 3,3D,2026-09-15,10:30 PM,G3,3,380,1140,Cash,Pending,customer0015@email.com,9700000015
+BK0016,CUST0016,Neha Kumar,ANI016,Animal,Drama,3,Ahmedabad,PVR Cinemas,Screen 4,Premium,2026-09-16,10:00 AM,H4,4,180,720,UPI,Confirmed,customer0016@email.com,9700000016
+BK0017,CUST0017,Kavya Sharma,FIG017,Fighter,Action,3,Vadodara,INOX,Screen 5,Standard,2026-09-17,01:30 PM,A5,1,230,230,Credit Card,Confirmed,customer0017@email.com,9700000017
+BK0018,CUST0018,Pooja Verma,KAN018,Kantara,Drama,3,Surat,Cinepolis,Screen 6,IMAX,2026-09-18,04:30 PM,B6,2,280,560,Debit Card,Confirmed,customer0018@email.com,9700000018
+BK0019,CUST0019,Simran Mehta,TAA019,Taare Zameen Par,Drama,1,Gandhinagar,Carnival Cinemas,Screen 1,3D,2026-09-19,07:30 PM,C7,3,330,990,Net Banking,Cancelled,customer0019@email.com,9700000019
+BK0020,CUST0020,Aisha Mishra,ZIN020,Zindagi Na Milegi Dobara,Comedy,1,Mumbai,Miraj Cinemas,Screen 2,Premium,2026-09-20,10:30 PM,D8,4,380,1520,Cash,Pending,customer0020@email.com,9700000020
+BK0021,CUST0021,Aarav Singh,AVE021,Avengers: Endgame,Action,3,Ahmedabad,PVR Cinemas,Screen 3,Standard,2026-09-21,10:00 AM,E9,1,180,180,UPI,Confirmed,customer0021@email.com,9700000021
+BK0022,CUST0022,Vivaan Joshi,INC022,Inception,Sci-Fi,3,Vadodara,INOX,Screen 4,IMAX,2026-09-22,01:30 PM,F10,2,230,460,Credit Card,Confirmed,customer0022@email.com,9700000022
+BK0023,CUST0023,Aditya Shah,INT023,Interstellar,Sci-Fi,3,Surat,Cinepolis,Screen 5,3D,2026-09-23,04:30 PM,G11,3,280,840,Debit Card,Confirmed,customer0023@email.com,9700000023
+BK0024,CUST0024,Arjun Patel,THE024,The Dark Knight,Action,3,Gandhinagar,Carnival Cinemas,Screen 6,Premium,2026-09-24,07:30 PM,H12,4,330,1320,Net Banking,Cancelled,customer0024@email.com,9700000024
+BK0025,CUST0025,Rohan Gupta,JOK025,Joker,Drama,2,Mumbai,Miraj Cinemas,Screen 1,Standard,2026-09-25,10:30 PM,A1,1,380,380,Cash,Pending,customer0025@email.com,9700000025
+BK0026,CUST0026,Rahul Kumar,SPI026,Spider-Man: No Way Home,Action,3,Ahmedabad,PVR Cinemas,Screen 2,IMAX,2026-09-26,10:00 AM,B2,2,180,360,UPI,Confirmed,customer0026@email.com,9700000026
+BK0027,CUST0027,Karan Sharma,3 I027,3 Idiots,Comedy,2,Vadodara,INOX,Screen 3,3D,2026-09-27,01:30 PM,C3,3,230,690,Credit Card,Confirmed,customer0027@email.com,9700000027
+BK0028,CUST0028,Akash Verma,DAN028,Dangal,Drama,2,Surat,Cinepolis,Screen 4,Premium,2026-09-28,04:30 PM,D4,4,280,1120,Debit Card,Confirmed,customer0028@email.com,9700000028
+BK0029,CUST0029,Yash Mehta,PAT029,Pathaan,Action,3,Gandhinagar,Carnival Cinemas,Screen 5,Standard,2026-09-01,07:30 PM,E5,1,330,330,Net Banking,Cancelled,customer0029@email.com,9700000029
+BK0030,CUST0030,Mohit Mishra,RRR030,RRR,Action,3,Mumbai,Miraj Cinemas,Screen 6,IMAX,2026-09-02,10:30 PM,F6,2,380,760,Cash,Pending,customer0030@email.com,9700000030
+BK0031,CUST0031,Ananya Singh,KGF031,KGF Chapter 2,Action,3,Ahmedabad,PVR Cinemas,Screen 1,3D,2026-09-03,10:00 AM,G7,3,180,540,UPI,Confirmed,customer0031@email.com,9700000031
+BK0032,CUST0032,Diya Joshi,DRI032,Drishyam 2,Thriller,2,Vadodara,INOX,Screen 2,Premium,2026-09-04,01:30 PM,H8,4,230,920,Credit Card,Confirmed,customer0032@email.com,9700000032
+BK0033,CUST0033,Ishita Shah,BHO033,Bhool Bhulaiyaa 2,Comedy,2,Surat,Cinepolis,Screen 3,Standard,2026-09-05,04:30 PM,A9,1,280,280,Debit Card,Confirmed,customer0033@email.com,9700000033
+BK0034,CUST0034,Priya Patel,STR034,Stree 2,Comedy,2,Gandhinagar,Carnival Cinemas,Screen 4,IMAX,2026-09-06,07:30 PM,B10,2,330,660,Net Banking,Cancelled,customer0034@email.com,9700000034
+BK0035,CUST0035,Sneha Gupta,JAW035,Jawan,Action,3,Mumbai,Miraj Cinemas,Screen 5,3D,2026-09-07,10:30 PM,C11,3,380,1140,Cash,Pending,customer0035@email.com,9700000035
+BK0036,CUST0036,Neha Kumar,ANI036,Animal,Drama,3,Ahmedabad,PVR Cinemas,Screen 6,Premium,2026-09-08,10:00 AM,D12,4,180,720,UPI,Confirmed,customer0036@email.com,9700000036
+BK0037,CUST0037,Kavya Sharma,FIG037,Fighter,Action,3,Vadodara,INOX,Screen 1,Standard,2026-09-09,01:30 PM,E1,1,230,230,Credit Card,Confirmed,customer0037@email.com,9700000037
+BK0038,CUST0038,Pooja Verma,KAN038,Kantara,Drama,3,Surat,Cinepolis,Screen 2,IMAX,2026-09-10,04:30 PM,F2,2,280,560,Debit Card,Confirmed,customer0038@email.com,9700000038
+BK0039,CUST0039,Simran Mehta,TAA039,Taare Zameen Par,Drama,1,Gandhinagar,Carnival Cinemas,Screen 3,3D,2026-09-11,07:30 PM,G3,3,330,990,Net Banking,Cancelled,customer0039@email.com,9700000039
+BK0040,CUST0040,Aisha Mishra,ZIN040,Zindagi Na Milegi Dobara,Comedy,1,Mumbai,Miraj Cinemas,Screen 4,Premium,2026-09-12,10:30 PM,H4,4,380,1520,Cash,Pending,customer0040@email.com,9700000040
+BK0041,CUST0041,Aarav Singh,AVE041,Avengers: Endgame,Action,3,Ahmedabad,PVR Cinemas,Screen 5,Standard,2026-09-13,10:00 AM,A5,1,180,180,UPI,Confirmed,customer0041@email.com,9700000041
+BK0042,CUST0042,Vivaan Joshi,INC042,Inception,Sci-Fi,3,Vadodara,INOX,Screen 6,IMAX,2026-09-14,01:30 PM,B6,2,230,460,Credit Card,Confirmed,customer0042@email.com,9700000042
+BK0043,CUST0043,Aditya Shah,INT043,Interstellar,Sci-Fi,3,Surat,Cinepolis,Screen 1,3D,2026-09-15,04:30 PM,C7,3,280,840,Debit Card,Confirmed,customer0043@email.com,9700000043
+BK0044,CUST0044,Arjun Patel,THE044,The Dark Knight,Action,3,Gandhinagar,Carnival Cinemas,Screen 2,Premium,2026-09-16,07:30 PM,D8,4,330,1320,Net Banking,Cancelled,customer0044@email.com,9700000044
+BK0045,CUST0045,Rohan Gupta,JOK045,Joker,Drama,2,Mumbai,Miraj Cinemas,Screen 3,Standard,2026-09-17,10:30 PM,E9,1,380,380,Cash,Pending,customer0045@email.com,9700000045
+BK0046,CUST0046,Rahul Kumar,SPI046,Spider-Man: No Way Home,Action,3,Ahmedabad,PVR Cinemas,Screen 4,IMAX,2026-09-18,10:00 AM,F10,2,180,360,UPI,Confirmed,customer0046@email.com,9700000046
+BK0047,CUST0047,Karan Sharma,3 I047,3 Idiots,Comedy,2,Vadodara,INOX,Screen 5,3D,2026-09-19,01:30 PM,G11,3,230,690,Credit Card,Confirmed,customer0047@email.com,9700000047
+BK0048,CUST0048,Akash Verma,DAN048,Dangal,Drama,2,Surat,Cinepolis,Screen 6,Premium,2026-09-20,04:30 PM,H12,4,280,1120,Debit Card,Confirmed,customer0048@email.com,9700000048
+BK0049,CUST0049,Yash Mehta,PAT049,Pathaan,Action,3,Gandhinagar,Carnival Cinemas,Screen 1,Standard,2026-09-21,07:30 PM,A1,1,330,330,Net Banking,Cancelled,customer0049@email.com,9700000049
+BK0050,CUST0050,Mohit Mishra,RRR050,RRR,Action,3,Mumbai,Miraj Cinemas,Screen 2,IMAX,2026-09-22,10:30 PM,B2,2,380,760,Cash,Pending,customer0050@email.com,9700000050
+BK0051,CUST0051,Ananya Singh,KGF051,KGF Chapter 2,Action,3,Ahmedabad,PVR Cinemas,Screen 3,3D,2026-09-23,10:00 AM,C3,3,180,540,UPI,Confirmed,customer0051@email.com,9700000051
+BK0052,CUST0052,Diya Joshi,DRI052,Drishyam 2,Thriller,2,Vadodara,INOX,Screen 4,Premium,2026-09-24,01:30 PM,D4,4,230,920,Credit Card,Confirmed,customer0052@email.com,9700000052
+BK0053,CUST0053,Ishita Shah,BHO053,Bhool Bhulaiyaa 2,Comedy,2,Surat,Cinepolis,Screen 5,Standard,2026-09-25,04:30 PM,E5,1,280,280,Debit Card,Confirmed,customer0053@email.com,9700000053
+BK0054,CUST0054,Priya Patel,STR054,Stree 2,Comedy,2,Gandhinagar,Carnival Cinemas,Screen 6,IMAX,2026-09-26,07:30 PM,F6,2,330,660,Net Banking,Cancelled,customer0054@email.com,9700000054
+BK0055,CUST0055,Sneha Gupta,JAW055,Jawan,Action,3,Mumbai,Miraj Cinemas,Screen 1,3D,2026-09-27,10:30 PM,G7,3,380,1140,Cash,Pending,customer0055@email.com,9700000055
+BK0056,CUST0056,Neha Kumar,ANI056,Animal,Drama,3,Ahmedabad,PVR Cinemas,Screen 2,Premium,2026-09-28,10:00 AM,H8,4,180,720,UPI,Confirmed,customer0056@email.com,9700000056
+BK0057,CUST0057,Kavya Sharma,FIG057,Fighter,Action,3,Vadodara,INOX,Screen 3,Standard,2026-09-01,01:30 PM,A9,1,230,230,Credit Card,Confirmed,customer0057@email.com,9700000057
+BK0058,CUST0058,Pooja Verma,KAN058,Kantara,Drama,3,Surat,Cinepolis,Screen 4,IMAX,2026-09-02,04:30 PM,B10,2,280,560,Debit Card,Confirmed,customer0058@email.com,9700000058
+BK0059,CUST0059,Simran Mehta,TAA059,Taare Zameen Par,Drama,1,Gandhinagar,Carnival Cinemas,Screen 5,3D,2026-09-03,07:30 PM,C11,3,330,990,Net Banking,Cancelled,customer0059@email.com,9700000059
+BK0060,CUST0060,Aisha Mishra,ZIN060,Zindagi Na Milegi Dobara,Comedy,1,Mumbai,Miraj Cinemas,Screen 6,Premium,2026-09-04,10:30 PM,D12,4,380,1520,Cash,Pending,customer0060@email.com,9700000060
+BK0061,CUST0061,Aarav Singh,AVE061,Avengers: Endgame,Action,3,Ahmedabad,PVR Cinemas,Screen 1,Standard,2026-09-05,10:00 AM,E1,1,180,180,UPI,Confirmed,customer0061@email.com,9700000061
+BK0062,CUST0062,Vivaan Joshi,INC062,Inception,Sci-Fi,3,Vadodara,INOX,Screen 2,IMAX,2026-09-06,01:30 PM,F2,2,230,460,Credit Card,Confirmed,customer0062@email.com,9700000062
+BK0063,CUST0063,Aditya Shah,INT063,Interstellar,Sci-Fi,3,Surat,Cinepolis,Screen 3,3D,2026-09-07,04:30 PM,G3,3,280,840,Debit Card,Confirmed,customer0063@email.com,9700000063
+BK0064,CUST0064,Arjun Patel,THE064,The Dark Knight,Action,3,Gandhinagar,Carnival Cinemas,Screen 4,Premium,2026-09-08,07:30 PM,H4,4,330,1320,Net Banking,Cancelled,customer0064@email.com,9700000064
+BK0065,CUST0065,Rohan Gupta,JOK065,Joker,Drama,2,Mumbai,Miraj Cinemas,Screen 5,Standard,2026-09-09,10:30 PM,A5,1,380,380,Cash,Pending,customer0065@email.com,9700000065
+BK0066,CUST0066,Rahul Kumar,SPI066,Spider-Man: No Way Home,Action,3,Ahmedabad,PVR Cinemas,Screen 6,IMAX,2026-09-10,10:00 AM,B6,2,180,360,UPI,Confirmed,customer0066@email.com,9700000066
+BK0067,CUST0067,Karan Sharma,3 I067,3 Idiots,Comedy,2,Vadodara,INOX,Screen 1,3D,2026-09-11,01:30 PM,C7,3,230,690,Credit Card,Confirmed,customer0067@email.com,9700000067
+BK0068,CUST0068,Akash Verma,DAN068,Dangal,Drama,2,Surat,Cinepolis,Screen 2,Premium,2026-09-12,04:30 PM,D8,4,280,1120,Debit Card,Confirmed,customer0068@email.com,9700000068
+BK0069,CUST0069,Yash Mehta,PAT069,Pathaan,Action,3,Gandhinagar,Carnival Cinemas,Screen 3,Standard,2026-09-13,07:30 PM,E9,1,330,330,Net Banking,Cancelled,customer0069@email.com,9700000069
+BK0070,CUST0070,Mohit Mishra,RRR070,RRR,Action,3,Mumbai,Miraj Cinemas,Screen 4,IMAX,2026-09-14,10:30 PM,F10,2,380,760,Cash,Pending,customer0070@email.com,9700000070
+BK0071,CUST0071,Ananya Singh,KGF071,KGF Chapter 2,Action,3,Ahmedabad,PVR Cinemas,Screen 5,3D,2026-09-15,10:00 AM,G11,3,180,540,UPI,Confirmed,customer0071@email.com,9700000071
+BK0072,CUST0072,Diya Joshi,DRI072,Drishyam 2,Thriller,2,Vadodara,INOX,Screen 6,Premium,2026-09-16,01:30 PM,H12,4,230,920,Credit Card,Confirmed,customer0072@email.com,9700000072
+BK0073,CUST0073,Ishita Shah,BHO073,Bhool Bhulaiyaa 2,Comedy,2,Surat,Cinepolis,Screen 1,Standard,2026-09-17,04:30 PM,A1,1,280,280,Debit Card,Confirmed,customer0073@email.com,9700000073
+BK0074,CUST0074,Priya Patel,STR074,Stree 2,Comedy,2,Gandhinagar,Carnival Cinemas,Screen 2,IMAX,2026-09-18,07:30 PM,B2,2,330,660,Net Banking,Cancelled,customer0074@email.com,9700000074
+BK0075,CUST0075,Sneha Gupta,JAW075,Jawan,Action,3,Mumbai,Miraj Cinemas,Screen 3,3D,2026-09-19,10:30 PM,C3,3,380,1140,Cash,Pending,customer0075@email.com,9700000075
+BK0076,CUST0076,Neha Kumar,ANI076,Animal,Drama,3,Ahmedabad,PVR Cinemas,Screen 4,Premium,2026-09-20,10:00 AM,D4,4,180,720,UPI,Confirmed,customer0076@email.com,9700000076
+BK0077,CUST0077,Kavya Sharma,FIG077,Fighter,Action,3,Vadodara,INOX,Screen 5,Standard,2026-09-21,01:30 PM,E5,1,230,230,Credit Card,Confirmed,customer0077@email.com,9700000077
+BK0078,CUST0078,Pooja Verma,KAN078,Kantara,Drama,3,Surat,Cinepolis,Screen 6,IMAX,2026-09-22,04:30 PM,F6,2,280,560,Debit Card,Confirmed,customer0078@email.com,9700000078
+BK0079,CUST0079,Simran Mehta,TAA079,Taare Zameen Par,Drama,1,Gandhinagar,Carnival Cinemas,Screen 1,3D,2026-09-23,07:30 PM,G7,3,330,990,Net Banking,Cancelled,customer0079@email.com,9700000079
+BK0080,CUST0080,Aisha Mishra,ZIN080,Zindagi Na Milegi Dobara,Comedy,1,Mumbai,Miraj Cinemas,Screen 2,Premium,2026-09-24,10:30 PM,H8,4,380,1520,Cash,Pending,customer0080@email.com,9700000080
+BK0081,CUST0081,Aarav Singh,AVE081,Avengers: Endgame,Action,3,Ahmedabad,PVR Cinemas,Screen 3,Standard,2026-09-25,10:00 AM,A9,1,180,180,UPI,Confirmed,customer0081@email.com,9700000081
+BK0082,CUST0082,Vivaan Joshi,INC082,Inception,Sci-Fi,3,Vadodara,INOX,Screen 4,IMAX,2026-09-26,01:30 PM,B10,2,230,460,Credit Card,Confirmed,customer0082@email.com,9700000082
+BK0083,CUST0083,Aditya Shah,INT083,Interstellar,Sci-Fi,3,Surat,Cinepolis,Screen 5,3D,2026-09-27,04:30 PM,C11,3,280,840,Debit Card,Confirmed,customer0083@email.com,9700000083
+BK0084,CUST0084,Arjun Patel,THE084,The Dark Knight,Action,3,Gandhinagar,Carnival Cinemas,Screen 6,Premium,2026-09-28,07:30 PM,D12,4,330,1320,Net Banking,Cancelled,customer0084@email.com,9700000084
+BK0085,CUST0085,Rohan Gupta,JOK085,Joker,Drama,2,Mumbai,Miraj Cinemas,Screen 1,Standard,2026-09-01,10:30 PM,E1,1,380,380,Cash,Pending,customer0085@email.com,9700000085
+BK0086,CUST0086,Rahul Kumar,SPI086,Spider-Man: No Way Home,Action,3,Ahmedabad,PVR Cinemas,Screen 2,IMAX,2026-09-02,10:00 AM,F2,2,180,360,UPI,Confirmed,customer0086@email.com,9700000086
+BK0087,CUST0087,Karan Sharma,3 I087,3 Idiots,Comedy,2,Vadodara,INOX,Screen 3,3D,2026-09-03,01:30 PM,G3,3,230,690,Credit Card,Confirmed,customer0087@email.com,9700000087
+BK0088,CUST0088,Akash Verma,DAN088,Dangal,Drama,2,Surat,Cinepolis,Screen 4,Premium,2026-09-04,04:30 PM,H4,4,280,1120,Debit Card,Confirmed,customer0088@email.com,9700000088
+BK0089,CUST0089,Yash Mehta,PAT089,Pathaan,Action,3,Gandhinagar,Carnival Cinemas,Screen 5,Standard,2026-09-05,07:30 PM,A5,1,330,330,Net Banking,Cancelled,customer0089@email.com,9700000089
+BK0090,CUST0090,Mohit Mishra,RRR090,RRR,Action,3,Mumbai,Miraj Cinemas,Screen 6,IMAX,2026-09-06,10:30 PM,B6,2,380,760,Cash,Pending,customer0090@email.com,9700000090
+BK0091,CUST0091,Ananya Singh,KGF091,KGF Chapter 2,Action,3,Ahmedabad,PVR Cinemas,Screen 1,3D,2026-09-07,10:00 AM,C7,3,180,540,UPI,Confirmed,customer0091@email.com,9700000091
+BK0092,CUST0092,Diya Joshi,DRI092,Drishyam 2,Thriller,2,Vadodara,INOX,Screen 2,Premium,2026-09-08,01:30 PM,D8,4,230,920,Credit Card,Confirmed,customer0092@email.com,9700000092
+BK0093,CUST0093,Ishita Shah,BHO093,Bhool Bhulaiyaa 2,Comedy,2,Surat,Cinepolis,Screen 3,Standard,2026-09-09,04:30 PM,E9,1,280,280,Debit Card,Confirmed,customer0093@email.com,9700000093
+BK0094,CUST0094,Priya Patel,STR094,Stree 2,Comedy,2,Gandhinagar,Carnival Cinemas,Screen 4,IMAX,2026-09-10,07:30 PM,F10,2,330,660,Net Banking,Cancelled,customer0094@email.com,9700000094
+BK0095,CUST0095,Sneha Gupta,JAW095,Jawan,Action,3,Mumbai,Miraj Cinemas,Screen 5,3D,2026-09-11,10:30 PM,G11,3,380,1140,Cash,Pending,customer0095@email.com,9700000095
+BK0096,CUST0096,Neha Kumar,ANI096,Animal,Drama,3,Ahmedabad,PVR Cinemas,Screen 6,Premium,2026-09-12,10:00 AM,H12,4,180,720,UPI,Confirmed,customer0096@email.com,9700000096
+BK0097,CUST0097,Kavya Sharma,FIG097,Fighter,Action,3,Vadodara,INOX,Screen 1,Standard,2026-09-13,01:30 PM,A1,1,230,230,Credit Card,Confirmed,customer0097@email.com,9700000097
+BK0098,CUST0098,Pooja Verma,KAN098,Kantara,Drama,3,Surat,Cinepolis,Screen 2,IMAX,2026-09-14,04:30 PM,B2,2,280,560,Debit Card,Confirmed,customer0098@email.com,9700000098
+BK0099,CUST0099,Simran Mehta,TAA099,Taare Zameen Par,Drama,1,Gandhinagar,Carnival Cinemas,Screen 3,3D,2026-09-15,07:30 PM,C3,3,330,990,Net Banking,Cancelled,customer0099@email.com,9700000099
+BK0100,CUST0100,Aisha Mishra,ZIN100,Zindagi Na Milegi Dobara,Comedy,1,Mumbai,Miraj Cinemas,Screen 4,Premium,2026-09-16,10:30 PM,D4,4,380,1520,Cash,Pending,customer0100@email.com,9700000100

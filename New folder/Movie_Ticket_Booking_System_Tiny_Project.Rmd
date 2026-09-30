@@ -1,0 +1,336 @@
+---
+title: "Movie Ticket Booking System - R Programming Tiny Project"
+author: "RUTHWANSHWA POHTI,2505010270283"
+date: "10/9/2026"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+## Introduction
+
+This tiny project analyzes a **Movie Ticket Booking System** database using R.
+The database contains customer, movie, theatre, show, seat, payment and booking information.
+
+The analysis follows the basic R Markdown approach used in the reference project: importing a CSV file, displaying the data, checking its structure and missing values, performing summary statistics, creating frequency tables and visualizations, and studying relationships between numeric variables.
+
+## 1. Import the Database
+
+Keep this R Markdown file and the CSV database in the **same folder**.
+
+```{r import-data}
+movie_data <- read.csv(
+  "Movie_Ticket_Booking_System_100_Rows.csv",
+  stringsAsFactors = FALSE
+)
+
+movie_data
+```
+
+## 2. Display First 10 Records
+
+```{r first-rows}
+head(movie_data, 10)
+```
+
+## 3. Number of Rows and Columns
+
+```{r dimensions}
+cat("Number of bookings:", nrow(movie_data), "\n")
+cat("Number of variables:", ncol(movie_data), "\n")
+```
+
+## 4. Summary of the Database
+
+```{r summary}
+summary(movie_data)
+```
+
+## 5. Structure of the Database
+
+```{r structure}
+str(movie_data)
+```
+
+## 6. Check Missing Values
+
+```{r missing-values}
+colSums(is.na(movie_data))
+```
+
+## 7. Booking Status Analysis
+
+```{r booking-status}
+booking_status_count <- table(movie_data$Booking_Status)
+booking_status_count
+```
+
+### Booking Status Pie Chart
+
+```{r booking-status-pie}
+pie(
+  booking_status_count,
+  main = "Booking Status Distribution",
+  labels = paste(
+    names(booking_status_count),
+    booking_status_count
+  )
+)
+```
+
+## 8. Movie Genre Analysis
+
+```{r genre}
+genre_count <- table(movie_data$Genre)
+genre_count
+```
+
+### Movie Genre Bar Chart
+
+```{r genre-bar}
+barplot(
+  genre_count,
+  main = "Movies by Genre",
+  xlab = "Genre",
+  ylab = "Number of Bookings",
+  las = 2
+)
+```
+
+## 9. City-wise Booking Analysis
+
+```{r city}
+city_count <- table(movie_data$City)
+city_count
+```
+
+### City-wise Booking Bar Chart
+
+```{r city-bar}
+barplot(
+  city_count,
+  main = "Bookings by City",
+  xlab = "City",
+  ylab = "Number of Bookings",
+  las = 2
+)
+```
+
+## 10. Payment Method Analysis
+
+```{r payment}
+payment_count <- table(movie_data$Payment_Method)
+payment_count
+```
+
+### Payment Method Pie Chart
+
+```{r payment-pie}
+pie(
+  payment_count,
+  main = "Payment Method Distribution",
+  labels = paste(
+    names(payment_count),
+    payment_count
+  )
+)
+```
+
+## 11. Ticket Quantity Analysis
+
+```{r ticket-quantity}
+ticket_quantity_count <- table(movie_data$Ticket_Quantity)
+ticket_quantity_count
+```
+
+### Ticket Quantity Bar Chart
+
+```{r ticket-quantity-bar}
+barplot(
+  ticket_quantity_count,
+  main = "Ticket Quantity Distribution",
+  xlab = "Number of Tickets",
+  ylab = "Number of Bookings"
+)
+```
+
+## 12. Ticket Price Statistics
+
+```{r ticket-price-statistics}
+cat("Mean Ticket Price:", mean(movie_data$Ticket_Price), "\n")
+cat("Median Ticket Price:", median(movie_data$Ticket_Price), "\n")
+cat("Variance of Ticket Price:", var(movie_data$Ticket_Price), "\n")
+cat("Standard Deviation of Ticket Price:", sd(movie_data$Ticket_Price), "\n")
+```
+
+## 13. Total Booking Amount Statistics
+
+```{r total-amount-statistics}
+cat("Mean Total Booking Amount:", mean(movie_data$Total_Amount), "\n")
+cat("Median Total Booking Amount:", median(movie_data$Total_Amount), "\n")
+cat("Minimum Total Booking Amount:", min(movie_data$Total_Amount), "\n")
+cat("Maximum Total Booking Amount:", max(movie_data$Total_Amount), "\n")
+```
+
+## 14. Movie-wise Booking Analysis
+
+```{r movie-bookings}
+movie_count <- table(movie_data$Movie_Name)
+movie_count
+```
+
+### Movie-wise Booking Bar Chart
+
+```{r movie-bookings-bar}
+barplot(
+  movie_count,
+  main = "Bookings by Movie",
+  xlab = "Movie",
+  ylab = "Number of Bookings",
+  las = 2,
+  cex.names = 0.7
+)
+```
+
+## 15. Theatre-wise Booking Analysis
+
+```{r theatre}
+theatre_count <- table(movie_data$Theatre_Name)
+theatre_count
+```
+
+### Theatre-wise Booking Bar Chart
+
+```{r theatre-bar}
+barplot(
+  theatre_count,
+  main = "Bookings by Theatre",
+  xlab = "Theatre",
+  ylab = "Number of Bookings",
+  las = 2
+)
+```
+
+## 16. Booking Status and Total Amount
+
+```{r status-amount}
+status_amount <- aggregate(
+  Total_Amount ~ Booking_Status,
+  data = movie_data,
+  FUN = sum
+)
+
+status_amount
+```
+
+### Total Booking Amount by Status
+
+```{r status-amount-bar}
+barplot(
+  status_amount$Total_Amount,
+  names.arg = status_amount$Booking_Status,
+  main = "Total Booking Amount by Booking Status",
+  xlab = "Booking Status",
+  ylab = "Total Amount"
+)
+```
+
+## 17. Payment Method and Total Amount
+
+```{r payment-amount}
+payment_amount <- aggregate(
+  Total_Amount ~ Payment_Method,
+  data = movie_data,
+  FUN = sum
+)
+
+payment_amount
+```
+
+### Payment Method Revenue Chart
+
+```{r payment-amount-bar}
+barplot(
+  payment_amount$Total_Amount,
+  names.arg = payment_amount$Payment_Method,
+  main = "Total Booking Amount by Payment Method",
+  xlab = "Payment Method",
+  ylab = "Total Amount",
+  las = 2
+)
+```
+
+## 18. Correlation Between Ticket Quantity and Total Amount
+
+```{r correlation}
+correlation_value <- cor(
+  movie_data$Ticket_Quantity,
+  movie_data$Total_Amount
+)
+
+correlation_value
+```
+
+## 19. Ticket Quantity vs Total Amount
+
+```{r scatter-plot}
+plot(
+  movie_data$Ticket_Quantity,
+  movie_data$Total_Amount,
+  main = "Ticket Quantity vs Total Booking Amount",
+  xlab = "Ticket Quantity",
+  ylab = "Total Booking Amount",
+  pch = 19
+)
+```
+
+## 20. Booking Analysis by Movie Genre
+
+```{r genre-amount}
+genre_amount <- aggregate(
+  Total_Amount ~ Genre,
+  data = movie_data,
+  FUN = sum
+)
+
+genre_amount
+```
+
+### Genre-wise Total Booking Amount
+
+```{r genre-amount-bar}
+barplot(
+  genre_amount$Total_Amount,
+  names.arg = genre_amount$Genre,
+  main = "Total Booking Amount by Genre",
+  xlab = "Genre",
+  ylab = "Total Booking Amount",
+  las = 2
+)
+```
+
+## 21. Key Results
+
+```{r key-results}
+cat("Total number of bookings:", nrow(movie_data), "\n")
+cat("Total tickets booked:", sum(movie_data$Ticket_Quantity), "\n")
+cat("Total booking amount:", sum(movie_data$Total_Amount), "\n")
+cat("Average ticket price:", round(mean(movie_data$Ticket_Price), 2), "\n")
+cat("Average booking amount:", round(mean(movie_data$Total_Amount), 2), "\n")
+cat("Correlation between ticket quantity and total amount:",
+    round(correlation_value, 3), "\n")
+```
+
+## Conclusion
+
+The Movie Ticket Booking System database was successfully imported into R and analyzed using R programming.
+
+The project demonstrates basic data analysis techniques such as data importing, data inspection, summary statistics, missing-value checking, frequency analysis, aggregation, correlation and graphical visualization.
+
+The HTML report generated from this R Markdown file provides a clear presentation of the database analysis and can be used for a college-level R Programming Tiny Project.
